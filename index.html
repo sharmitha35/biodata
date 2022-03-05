@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioData</title>
+    <!-- <link rel="stylesheet" href="bio.css"> -->
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 20%;
+        }
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        fieldset {
+  background-color: powderblue;
+  border-style: solid;
+  border-width: 5px;
+}
+    </style>
+</head>
+<body style="background-color:powderblue">
+   
+     <fieldset>
+    <h1 style="text-align: center;">BioData</h1>
+    <img src="./Profile.jpg" alt=""width="10%" >
+    <br><br>
+    Name:
+    <input type="text">
+    <br><br> 
+    <label for="DOB">DOB:</label>
+    <input type="date" id="DOB" name="DOB">
+    <br></br>
+    Gender:
+    <input type="radio" value="M"   Name="gender"/>Male
+    <input type="radio" value="F"  Name="gender"/>Female
+    <br><br>
+    <label for="">Father Name:</label>
+    <input type="text">
+    Occupation:
+    <input type="text">
+    <br><br>
+    Mother Name:
+    <input type="text">
+    Occupation:
+    <input type="text">
+    <br><br>
+    Nationality:
+    <input type="text"><br><br>
+     
+    Email id:<br>
+    <input type="email"  />
+     <br></br>
+    Department:
+    <select id="dropdown" name="department" class="dropdown">
+        <option disabled value>Select an option</option>
+        <option value="it">IT</option>
+        <option value="cse">CSE</option>
+        <option value="ece">ECE</option>
+        <option value="mech">MECH</option>
+        <option value="civil">CIVIL</option>
+        <option value="other">Other</option>
+        </select><br><br>     
+Upload photo:
+<input type="file">
+   <br></br>
+    Permanent Address:
+    <input type="text">
+    <br><br>
+    Pincode:
+    <input type="text"><br><br>
+    Contact:
+    <input type="tel"><br><br>
+    Languages Known:
+    <input type="checkbox">C
+    <input type="checkbox">JAVA
+    <input type="checkbox">PYTHON
+    <br><br>
+    <table>
+        <caption style="text-align: center;"><b>EDUCATIONAL DETAILS</b></caption>
+        <tr>
+            
+            <th>10th Percentage</th>
+            <th>12th Percentage</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td>8.98</td>
+            <td>8.81</td>
+            <td>9.84</td>
+        </tr>
+    </table>
+    <br><br>
+    <label for="marksheet">Marksheet:</label>
+    <input type="file" id="marksheet">
+
+    <h2><strong>AREA OF INTEREST</strong></h2>
+    <ul type="circle"><li>WebTechnology</li>
+    <li>Data Base Management System</li></ul>
+    <br><br>
+  
+    <input type="submit" >  
+    <input type="reset">
+</fieldset>
+</body>
+</html>
